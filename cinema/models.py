@@ -4,6 +4,7 @@ from django.conf import settings
 
 from cinema.utils import custom_movie_image_path
 
+
 class CinemaHall(models.Model):
     name = models.CharField(max_length=255)
     rows = models.IntegerField()
